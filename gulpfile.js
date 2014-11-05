@@ -38,7 +38,7 @@ var runBrowserifyTask = function (options) {
     entries: ['./src/main.js'],
     standalone: packageJson.name,
     // These options are just for Watchify
-    cache: {}, packageCache: {}, fullPaths: true
+    cache: {}, packageCache: {}, fullPaths: options.debug
   });
 
   // Add external dependencies to avoid including them in the build
