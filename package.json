@@ -22,6 +22,6 @@
     "jasmine-node": "^1.14.5"
   },
   "dependencies": {
-    "jquery": "^2.1.1"
+    "jquery": "^3.4.1"
   }
 }
